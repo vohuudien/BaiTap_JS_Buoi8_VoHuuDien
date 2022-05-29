@@ -34,8 +34,9 @@ function showCountPositiveNum(){
     return countPositiveNum
 }
 function findMinimumNum(){
-    var minimumNum = 0;
+    var minimumNum = integerArray[0]
     for(i=0; i< integerArray.length ; i++){
+        
         if(integerArray[i] < minimumNum){
             minimumNum = integerArray[i]
         }
